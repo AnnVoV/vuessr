@@ -31,8 +31,8 @@ server.get('/index', (req, res) => {
     })
 });
 
-server.listen(8002, () => {
-    console.log('后端渲染服务器启动，端口号为：8002');
+server.listen(8080, () => {
+    console.log('后端渲染服务器启动，端口号为：8080, 地址为：http://127.0.0.1:8080/index');
 });
 
 
